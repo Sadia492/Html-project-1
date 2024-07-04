@@ -81,7 +81,7 @@
 .work img {
   height: 455px;
   width: 870px;
-  margin-left: 12%;
+  margin-left: 150px;
   margin-top: 73px;
 }
 .price {
@@ -90,9 +90,6 @@
 }
 .price p {
   color: #98a0a5;
-  font-size: 20px;
-  width: 75%;
-  padding-left: 250px;
 }
 .price h2 {
   font-size: 30px;
@@ -185,11 +182,7 @@
 .price_table li:last-child {
   margin-top: 20px;
 }
-.price p:last-child {
-  font-size: 15px;
-  width: 65%;
-  padding-left: 330px;
-}
+
 .contact {
   height: 735px;
   background-color: #2d3035;
@@ -202,10 +195,6 @@
 }
 .contact p {
   color: #98a0a5;
-  font-size: 20px;
-  width: 70%;
-  padding-left: 320px;
-  padding-bottom: 40px;
 }
 .form {
   background-color: #2d3035;
@@ -274,4 +263,10 @@
 }
 .order_now:active {
   text-decoration: none;
+}
+
+@media screen and (min-width: 370px) {
+  .work img {
+    padding-right: 250px;
+  }
 }
